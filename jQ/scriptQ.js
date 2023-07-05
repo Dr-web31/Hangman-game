@@ -39,7 +39,7 @@ $(
             medcine:["anatomie"],
             programming: ["php","javascript","go","scale","fortran","mySql","python"],
             movies:["titanic","kissAndCry","matrix","inception","whiplash","memento","coco","up"],
-            pepole:["yacine","abir","maissa","mohamed","rana"],
+                pepole:["json","aline","noah","smith","john"],
             countries:["alger","maroc","spain","egypt","bahrin","qatar"]
 
         }
