@@ -32,7 +32,7 @@ const words = {
     
     programming: ["php","javascript","go","scale","fortran","r","mySql","python"],
     movies:["titanic","kissAndCry","matrix","inseption","whiplash","memento","coco","up"],
-    pepole:["yacine","abir","maissa","mohamed","rana"],
+    pepole:["json","aline","noah","smith","john"],
     countries:["alger","maroc","spain","egypt","bahrin","qatar"]
     
 }
