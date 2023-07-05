@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> hangMan</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Sriracha&display=swap" rel="stylesheet">
+        
+        
+    </head>
+    
+    <body>
+    
+        <div class="container">
+        
+            <div class="game-info">
+            
+                <div class="game-name"><h1>Hangman</h1></div>
+                <div class="information">
+                    <button type="button" class="btn btn-outline-primary show-popup" data-popup=".info"> <span class="glyphicon glyphicon-align-justify"></span> <span class="special"> How to play </span> </button>
+                </div>
+                <div class="choix">
+                    <div class="choix-head">                    
+                         <p> choose your category <span class="glyphicon glyphicon-hand-down"></span></p>    
+                    </div>
+                    
+                    <div class="choix-body">
+                        
+                        <ul >
+                            
+                            <li class="btn btn-primary button" ><a href="#"> Medcine </a></li>
+                            <li class="btn btn-danger button" ><a href="#"> Programming </a></li>
+                            <li class="btn btn-info button" ><a href="#"> movies </a></li>
+                            <li class="btn btn-success button" ><a href="#"> pepole </a></li>
+                            <li class="btn btn-secondary button"><a href="#"> countries </a></li>
+                            
+                        </ul>
+                        
+                    </div>
+                    
+                    
+                </div>
+                <div class="category">
+                
+                     <button type="button" class="replay"> <span class="glyphicon glyphicon-repeat"></span> Replay </button>
+                    
+                </div>
+            
+            </div>
+            <div class="clear"></div>
+            <hr>
+            <div class="row">
+            
+                <div class="hangman-draw col-md-6 col-sm-12 col-xs-12">
+                
+                    <div class="the-draw">
+                    
+                        <div class="the-stand"></div>
+                        <div class="the-hang"></div>
+                        <div class="the-rope"></div>
+                        <div class="the-man">
+                        
+                            <div class="head"></div>
+                            <div class="body"></div>
+                            <div class="hands"></div>
+                            <div class="legs"></div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                
+                <div class="letters col-md-6 col-sm-12 col-xs-12">
+                </div>
+                
+                
+            </div>
+            <hr>
+            <div class="row">
+                <div class="information-name col-md-12">
+                    <p>The name comes from a chapter (surah) of the Quran called Ya-Sin</p>
+                </div>
+            <div class="letters-guess col-md-12"></div>
+            </div>
+            
+        
+        </div>
+        <div class="popup info ">
+        
+            <div class="container inner">
+            
+                <ol>
+                
+                    <li> first you should choose the category of the words </li>
+                    <li> Then you know that you have just 8 fautes , and 1 faute will not delete later </li>
+                    <li> finaly if you want to replay again okey we are here Enjoy the Game :) </li>
+                </ol>
+                <button class="close">Close</button>
+                
+            </div>
+            
+        </div>
+        <!-- 
+        <audio id="success" src="musice/SCH%20-%20A7.mp3" preload="auto"></audio>
+        <audio id="fail" src="musice/SCH%20-%20Allo%20maman.mp3" preload="auto"></audio>
+        -->
+    <script src="jQ/scriptQ.js"></script>
+    <!-- <script src="jS/script.js"></script> -->
+    </body>
+    
+</html>
