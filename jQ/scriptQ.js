@@ -36,7 +36,7 @@ $(
         //Object Of Words + Categories 
 
         const words = {
-            medcine:["anatomie"],
+            medcine:["anatomie","chirurgie","scanner","neurologie","cardiologie","irm","vaccin"],
             programming: ["php","javascript","go","scale","fortran","mySql","python"],
             movies:["titanic","kissAndCry","matrix","inception","whiplash","memento","coco","up"],
                 pepole:["json","aline","noah","smith","john"],
